@@ -1,0 +1,8 @@
+Day00
+________________
+Video:
+How to open a html file in browser:
+file:///<PATH>
+exp:
+file:///nfs/2019/v/vehernan/Desktop/PROJECTS_NOTES/PHP_PISCINEnotes/d00/ex00/basics.html
+
