@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://images.pexels.com/photos/3568521/pexels-photo-3568521.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.dropdown{
+    background: #006400;
+    text-align: center;
+}
+.dropdown ul{
+    display: inline-flex;
+    list-style: none;
+    color: beige;
+}
+.dropdown ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.dropdown ul li a{
+    text-decoration: none;
+    color: beige;
+}
+.acitive, .dropdown ul li:hover{
+    background: #2bab0d;
+    border-radius: 3px;
+}
+.menu1, .menu2, .menu3, .menu4, .menu5{
+    display: none;
+}
+.dropdown ul li:hover .menu1{
+    display: block;
+    position: absolute;
+    background: rgb(0, 100, 0);
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.dropdown ul li:hover .menu2{
+    display: block;
+    position: absolute;
+    background: rgb(0, 100, 0);
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.dropdown ul li:hover .menu3{
+    display: block;
+    position: absolute;
+    background: rgb(0, 100, 0);
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.dropdown ul li:hover .menu4{
+    display: block;
+    position: absolute;
+    background: rgb(0, 100, 0);
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.dropdown ul li:hover .menu5{
+    display: block;
+    position: absolute;
+    background: rgb(0, 100, 0);
+    margin-top: 15px;
+    margin-left: 15px;
+}
