@@ -1,0 +1,123 @@
+html, body, div,h1, h4, h5, h6,big,img,
+small, strong,var, center, table,header, em,
+menu, output{
+                margin: 0;
+                padding: 0;
+                border: 0;
+                font-size: 100%;
+                font: inherit;
+                vertical-align: baseline
+            }
+            body{
+                background-image: url("https://i.ytimg.com/vi/-ODDWpk9Cro/maxresdefault.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            div{
+                border: .5px solid #00000005;
+            }
+            .table{
+                display: grid;
+                grid-template-columns: 10% repeat(18, 1fr) 10%;
+                grid-template-rows: 2fr repeat(13, 1fr) 2fr;
+            }
+            h6{
+                padding: .25em .25em 0 0;
+                color: #4d004d;
+                font-size: 1vh;
+                text-align: right;
+            }
+            h5{
+                padding: 0 0 .25em .25em;
+                color: #190faaae;
+                text-align: left;
+                font-size: 1vh;
+            }
+            h4{
+                color: #b807cfae;
+                text-align: center;
+                font-size: 5.5vh;
+                }
+            h1{
+                color: #ffffffae;
+                margin: .35em 0 .35em 0;
+                font-size: 2vh;
+                font-weight: bold;
+                text-align: center;
+            }
+            .nocolor1{
+                transition: background-color 1s ease;
+                -o-transition: background-color 1s ease;
+                -moz-transition: background-color 1s ease;
+                background-color: #ece9f3ae;
+            }
+            .nocolor1:hover {background-color: #22222280;}
+            .Ametal2{
+                transition: background-color 1s ease;
+                -o-transition: background-color 1s ease;
+                -moz-transition: background-color 1s ease;
+                background-color: #3367C2a0;
+            }
+            .Ametal2:hover { background-color: #D9D7DD;}
+            .AEmetal3{
+                transition: background-color 1s ease;
+                -o-transition: background-color 1s ease;
+                -moz-transition: background-color 1s ease;
+                background-color: #24e0e0ae;);
+            }
+            .AEmetal3:hover { background-color: #D9D7DD;}
+            .transmetal4{
+                transition: background-color 1s ease;
+                -o-transition: background-color 1s ease;
+                -moz-transition: background-color 1s ease;
+                background-color:#E24B56ae;;
+            }
+            .transmetal4:hover { background-color: #D9D7DD}
+            .PTmetal5{
+                transition: background-color 1s ease;
+                -o-transition: background-color 1s ease;
+                -moz-transition: background-color 1s ease;
+                background-color: #E27454ae;
+            }
+            .PTmetal5:hover { background-color: #D9D7DD;}
+            .metalloids6{
+                transition: background-color 1s ease;
+                -o-transition: background-color 1s ease;
+                -moz-transition: background-color 1s ease;
+                background-color: #ECB868ae;
+            }
+            .metalloids6:hover { background-color: #D9D7DD;}
+            .halogens7{
+                transition: background-color 1s ease;
+                -o-transition: background-color 1s ease;
+                -moz-transition: background-color 1s ease;
+                background-color: rgba(41, 16, 133, 0.682);
+            }
+            .halogens7:hover { background-color: #D9D7DD;}
+            .lanthanides8{
+                transition: background-color 1s ease;
+                -o-transition: background-color 1s ease;
+                -moz-transition: background-color 1s ease;
+                background-color: #B07BACae;
+            }
+            .lanthanides8:hover { background-color: #D9D7DD;}
+            .actinides9{
+                transition: background-color 1s ease;
+                -o-transition: background-color 1s ease;
+                -moz-transition: background-color 1s ease;
+                background-color: rgba(132, 18, 160, 0.682);
+            }
+            .actinides9:hover { background-color: #D9D7DD;}
+            .noblegas10{
+                transition: background-color 1s ease;
+                -o-transition: background-color 1s ease;
+                -moz-transition: background-color 1s ease;
+                background-color: rgba(105, 15, 179, 0.682);
+            }
+            .noblegas10:hover { background-color: #D9D7DD;}
+            .nonmetal11{
+                transition: background-color 1s ease;
+                -o-transition: background-color 1s ease;
+                -moz-transition: background-color 1s ease;
+                background-color: rgba(14, 236, 99, 0.682);}
+                .nonmetal11:hover { background-color: #D9D7DD;}
