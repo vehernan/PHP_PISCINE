@@ -1,20 +1,21 @@
 #!/usr/bin/php
-<?php
-    $open = fopen('php://stdin', 'r');
+<?PHP
+	$open = fopen('php://stdin', 'r');
 	while (!feof($open))
 	{
 		echo "Enter a number: ";
-		$number = fgets($open);
-		$number = str_replace("\n", "", $number);
-		if (is_numeric($number))
+		$input = fgets($open);
+		$input = str_replace("\n", "", $input);
+		if (is_numeric($input))
 		{
-			if ($number % 2 == 0) //even
-				echo "The number" . " $number" . " is even\n";
+			if ($input % 2 == 0)
+				echo "The number" . " $input" . " is even\n";
 			else
-				echo "The number" . " $number" . " is odd\n";
+				echo "The number" . " $input" . " is odd\n";
 		}
 		else
-			echo "'". "$number" . "'" . " is not a number\n";
+			echo "'". "$input" . "'" . " is not a number\n";
 	}
 	fclose($open);
+	
 ?>
